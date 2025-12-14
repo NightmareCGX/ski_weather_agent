@@ -1,0 +1,163 @@
+{
+  "units": {
+    "snow": "in",
+    "temp": "C",
+    "wind": "mph"
+  },
+  "issued_at_local": "2025-12-12T20:00:00-07:00",
+  "resorts": [
+    {
+      "name": "Snowbird",
+      "meta": {
+        "base_elev_ft": 8100,
+        "top_elev_ft": 11000,
+        "primary_aspects": {
+          "N": 0.4,
+          "E": 0.2,
+          "S": 0.1,
+          "W": 0.3
+        },
+        "wind_exposure": "high"
+      },
+      "forecast_daily": [
+        {
+          "date": "2025-12-13",
+          "new_snow_in": 8,
+          "temp_min_c": -9,
+          "temp_max_c": -3,
+          "wind_avg_mph": 18,
+          "wind_gust_mph": 35,
+          "ptype": "snow"
+        },
+        {
+          "date": "2025-12-14",
+          "new_snow_in": 2,
+          "temp_min_c": -12,
+          "temp_max_c": -5,
+          "wind_avg_mph": 10,
+          "wind_gust_mph": 22,
+          "ptype": "snow"
+        },
+        {
+          "date": "2025-12-15",
+          "new_snow_in": 0,
+          "temp_min_c": -10,
+          "temp_max_c": -2,
+          "wind_avg_mph": 12,
+          "wind_gust_mph": 25,
+          "ptype": "none"
+        }
+      ],
+      "recent_history": {
+        "snow_7d_in": 22,
+        "melt_freeze_cycles_7d": 0,
+        "windy_days_7d": 2
+      }
+    },
+    {
+      "name": "Solitude",
+      "meta": {
+        "base_elev_ft": 8000,
+        "top_elev_ft": 10500,
+        "primary_aspects": {
+          "N": 0.35,
+          "E": 0.25,
+          "S": 0.15,
+          "W": 0.25
+        },
+        "wind_exposure": "medium"
+      },
+      "forecast_daily": [
+        {
+          "date": "2025-12-13",
+          "new_snow_in": 6,
+          "temp_min_c": -8,
+          "temp_max_c": -2,
+          "wind_avg_mph": 14,
+          "wind_gust_mph": 28,
+          "ptype": "snow"
+        },
+        {
+          "date": "2025-12-14",
+          "new_snow_in": 1,
+          "temp_min_c": -11,
+          "temp_max_c": -4,
+          "wind_avg_mph": 9,
+          "wind_gust_mph": 18,
+          "ptype": "snow"
+        },
+        {
+          "date": "2025-12-15",
+          "new_snow_in": 0,
+          "temp_min_c": -9,
+          "temp_max_c": -1,
+          "wind_avg_mph": 10,
+          "wind_gust_mph": 20,
+          "ptype": "none"
+        }
+      ],
+      "recent_history": {
+        "snow_7d_in": 18,
+        "melt_freeze_cycles_7d": 0,
+        "windy_days_7d": 1
+      }
+    },
+    {
+      "name": "Park City",
+      "meta": {
+        "base_elev_ft": 6900,
+        "top_elev_ft": 10000,
+        "primary_aspects": {
+          "N": 0.25,
+          "E": 0.25,
+          "S": 0.25,
+          "W": 0.25
+        },
+        "wind_exposure": "medium"
+      },
+      "forecast_daily": [
+        {
+          "date": "2025-12-13",
+          "new_snow_in": 3,
+          "temp_min_c": -6,
+          "temp_max_c": 0,
+          "wind_avg_mph": 16,
+          "wind_gust_mph": 30,
+          "ptype": "mix"
+        },
+        {
+          "date": "2025-12-14",
+          "new_snow_in": 0,
+          "temp_min_c": -8,
+          "temp_max_c": 1,
+          "wind_avg_mph": 12,
+          "wind_gust_mph": 22,
+          "ptype": "none"
+        },
+        {
+          "date": "2025-12-15",
+          "new_snow_in": 0,
+          "temp_min_c": -7,
+          "temp_max_c": 2,
+          "wind_avg_mph": 10,
+          "wind_gust_mph": 18,
+          "ptype": "none"
+        }
+      ],
+      "recent_history": {
+        "snow_7d_in": 10,
+        "melt_freeze_cycles_7d": 2,
+        "windy_days_7d": 1
+      }
+    }
+  ],
+  "heuristics": [
+    "If temp_max_c near 0C and ptype includes rain/mix => wet snow / crust risk increases.",
+    "High wind_gust_mph + wind_exposure=high => lift hold risk increases.",
+    "North-facing aspects preserve dry snow longer; south-facing warms faster under sun."
+  ],
+  "constraints": {
+    "no_hallucination": true,
+    "cite_fields_only": true
+  }
+}
