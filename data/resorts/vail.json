@@ -1,0 +1,106 @@
+{
+  "generated_at_local": "2025-12-13T12:59:44.971372",
+  "resort": "Vail",
+  "location": {
+    "lat": 39.6403,
+    "lon": -106.3742
+  },
+  "units": {
+    "temperature": "C",
+    "wind_speed": "kph",
+    "snow": "cm",
+    "solar_radiation": "W/m^2",
+    "humidity": "%",
+    "cloud_cover": "%"
+  },
+  "snow": {
+    "snow_base_depth_cm": 71.1,
+    "snowfall_past_3_days_cm": null,
+    "recent_snowfall_components_in": [],
+    "recent_snowfall_used_for_3day_in": [],
+    "source": "OnTheSnow skireport (scraped)",
+    "url": "https://www.onthesnow.com/colorado/vail/skireport",
+    "errors": [
+      {
+        "source": "OnTheSnow",
+        "field": "snowfall_past_3_days_cm",
+        "reason": "recent_snowfall_row_not_found",
+        "url": "https://www.onthesnow.com/colorado/vail/skireport"
+      }
+    ]
+  },
+  "forecast_next_3_days_12h": [
+    {
+      "time_local": "2025-12-13T00:00",
+      "temp_c": -0.3,
+      "apparent_temp_c": -4.5,
+      "wind_kph": 5.9,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 43,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-13T12:00",
+      "temp_c": 2.9,
+      "apparent_temp_c": -1.2,
+      "wind_kph": 5.7,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 40,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 504.5
+    },
+    {
+      "time_local": "2025-12-14T00:00",
+      "temp_c": 2.0,
+      "apparent_temp_c": -3.2,
+      "wind_kph": 9.0,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 18,
+      "cloud_cover_pct": 28,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-14T12:00",
+      "temp_c": 8.5,
+      "apparent_temp_c": 5.3,
+      "wind_kph": 2.3,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 35,
+      "cloud_cover_pct": 5,
+      "solar_radiation_w_m2": 515.0
+    },
+    {
+      "time_local": "2025-12-15T00:00",
+      "temp_c": 4.1,
+      "apparent_temp_c": -0.9,
+      "wind_kph": 8.0,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 15,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-15T12:00",
+      "temp_c": 6.5,
+      "apparent_temp_c": 3.4,
+      "wind_kph": 2.7,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 46,
+      "cloud_cover_pct": 81,
+      "solar_radiation_w_m2": 481.0
+    }
+  ],
+  "errors": [
+    {
+      "source": "OnTheSnow",
+      "field": "snowfall_past_3_days_cm",
+      "reason": "recent_snowfall_row_not_found",
+      "url": "https://www.onthesnow.com/colorado/vail/skireport"
+    }
+  ],
+  "sources": {
+    "snow": "OnTheSnow skireport (scraped, low-frequency)",
+    "forecast": "Open-Meteo API (hourly \u2192 12-hourly)"
+  }
+}

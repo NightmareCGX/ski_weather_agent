@@ -1,0 +1,106 @@
+{
+  "generated_at_local": "2025-12-13T13:00:11.093582",
+  "resort": "Stowe",
+  "location": {
+    "lat": 44.4654,
+    "lon": -72.6874
+  },
+  "units": {
+    "temperature": "C",
+    "wind_speed": "kph",
+    "snow": "cm",
+    "solar_radiation": "W/m^2",
+    "humidity": "%",
+    "cloud_cover": "%"
+  },
+  "snow": {
+    "snow_base_depth_cm": null,
+    "snowfall_past_3_days_cm": null,
+    "recent_snowfall_components_in": [],
+    "recent_snowfall_used_for_3day_in": [],
+    "source": "OnTheSnow skireport (scraped)",
+    "url": "https://www.onthesnow.com/vermont/stowe-mountain/skireport",
+    "errors": [
+      {
+        "source": "OnTheSnow",
+        "field": "http",
+        "reason": "http_error_404",
+        "url": "https://www.onthesnow.com/vermont/stowe-mountain/skireport"
+      }
+    ]
+  },
+  "forecast_next_3_days_12h": [
+    {
+      "time_local": "2025-12-13T00:00",
+      "temp_c": -6.7,
+      "apparent_temp_c": -11.5,
+      "wind_kph": 9.1,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 55,
+      "cloud_cover_pct": 41,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-13T12:00",
+      "temp_c": -2.4,
+      "apparent_temp_c": -7.2,
+      "wind_kph": 13.5,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 74,
+      "cloud_cover_pct": 99,
+      "solar_radiation_w_m2": 247.8
+    },
+    {
+      "time_local": "2025-12-14T00:00",
+      "temp_c": -5.1,
+      "apparent_temp_c": -9.5,
+      "wind_kph": 8.8,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 76,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-14T12:00",
+      "temp_c": -6.2,
+      "apparent_temp_c": -11.0,
+      "wind_kph": 11.0,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 74,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 210.0
+    },
+    {
+      "time_local": "2025-12-15T00:00",
+      "temp_c": -15.2,
+      "apparent_temp_c": -20.8,
+      "wind_kph": 12.5,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 71,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-15T12:00",
+      "temp_c": -8.4,
+      "apparent_temp_c": -13.9,
+      "wind_kph": 14.8,
+      "snow_cm": 0.04,
+      "relative_humidity_pct": 78,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 255.5
+    }
+  ],
+  "errors": [
+    {
+      "source": "OnTheSnow",
+      "field": "http",
+      "reason": "http_error_404",
+      "url": "https://www.onthesnow.com/vermont/stowe-mountain/skireport"
+    }
+  ],
+  "sources": {
+    "snow": "OnTheSnow skireport (scraped, low-frequency)",
+    "forecast": "Open-Meteo API (hourly \u2192 12-hourly)"
+  }
+}

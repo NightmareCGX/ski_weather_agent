@@ -1,0 +1,106 @@
+{
+  "generated_at_local": "2025-12-13T12:59:56.680238",
+  "resort": "Alta",
+  "location": {
+    "lat": 40.5884,
+    "lon": -111.637
+  },
+  "units": {
+    "temperature": "C",
+    "wind_speed": "kph",
+    "snow": "cm",
+    "solar_radiation": "W/m^2",
+    "humidity": "%",
+    "cloud_cover": "%"
+  },
+  "snow": {
+    "snow_base_depth_cm": 66.0,
+    "snowfall_past_3_days_cm": null,
+    "recent_snowfall_components_in": [],
+    "recent_snowfall_used_for_3day_in": [],
+    "source": "OnTheSnow skireport (scraped)",
+    "url": "https://www.onthesnow.com/utah/alta-ski-area/skireport",
+    "errors": [
+      {
+        "source": "OnTheSnow",
+        "field": "snowfall_past_3_days_cm",
+        "reason": "recent_snowfall_row_not_found",
+        "url": "https://www.onthesnow.com/utah/alta-ski-area/skireport"
+      }
+    ]
+  },
+  "forecast_next_3_days_12h": [
+    {
+      "time_local": "2025-12-13T00:00",
+      "temp_c": -0.5,
+      "apparent_temp_c": -5.7,
+      "wind_kph": 10.1,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 23,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-13T12:00",
+      "temp_c": 1.9,
+      "apparent_temp_c": -3.3,
+      "wind_kph": 10.4,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 25,
+      "cloud_cover_pct": 23,
+      "solar_radiation_w_m2": 482.5
+    },
+    {
+      "time_local": "2025-12-14T00:00",
+      "temp_c": 4.8,
+      "apparent_temp_c": -0.9,
+      "wind_kph": 12.3,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 9,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-14T12:00",
+      "temp_c": 3.3,
+      "apparent_temp_c": -2.7,
+      "wind_kph": 16.6,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 22,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 446.0
+    },
+    {
+      "time_local": "2025-12-15T00:00",
+      "temp_c": 1.4,
+      "apparent_temp_c": -4.6,
+      "wind_kph": 15.3,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 21,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-15T12:00",
+      "temp_c": 4.4,
+      "apparent_temp_c": 0.0,
+      "wind_kph": 5.4,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 23,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 461.0
+    }
+  ],
+  "errors": [
+    {
+      "source": "OnTheSnow",
+      "field": "snowfall_past_3_days_cm",
+      "reason": "recent_snowfall_row_not_found",
+      "url": "https://www.onthesnow.com/utah/alta-ski-area/skireport"
+    }
+  ],
+  "sources": {
+    "snow": "OnTheSnow skireport (scraped, low-frequency)",
+    "forecast": "Open-Meteo API (hourly \u2192 12-hourly)"
+  }
+}

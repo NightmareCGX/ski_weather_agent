@@ -1,0 +1,118 @@
+{
+  "generated_at_local": "2025-12-13T12:59:58.818212",
+  "resort": "Snowbasin",
+  "location": {
+    "lat": 41.2163,
+    "lon": -111.8567
+  },
+  "units": {
+    "temperature": "C",
+    "wind_speed": "kph",
+    "snow": "cm",
+    "solar_radiation": "W/m^2",
+    "humidity": "%",
+    "cloud_cover": "%"
+  },
+  "snow": {
+    "snow_base_depth_cm": null,
+    "snowfall_past_3_days_cm": null,
+    "recent_snowfall_components_in": [],
+    "recent_snowfall_used_for_3day_in": [],
+    "source": "OnTheSnow skireport (scraped)",
+    "url": "https://www.onthesnow.com/utah/snowbasin/skireport",
+    "errors": [
+      {
+        "source": "OnTheSnow",
+        "field": "snow_base_depth_cm",
+        "reason": "pattern_not_found",
+        "url": "https://www.onthesnow.com/utah/snowbasin/skireport"
+      },
+      {
+        "source": "OnTheSnow",
+        "field": "snowfall_past_3_days_cm",
+        "reason": "recent_snowfall_row_not_found",
+        "url": "https://www.onthesnow.com/utah/snowbasin/skireport"
+      }
+    ]
+  },
+  "forecast_next_3_days_12h": [
+    {
+      "time_local": "2025-12-13T00:00",
+      "temp_c": 6.1,
+      "apparent_temp_c": -1.7,
+      "wind_kph": 30.7,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 26,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-13T12:00",
+      "temp_c": 9.1,
+      "apparent_temp_c": 5.3,
+      "wind_kph": 5.2,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 31,
+      "cloud_cover_pct": 4,
+      "solar_radiation_w_m2": 452.0
+    },
+    {
+      "time_local": "2025-12-14T00:00",
+      "temp_c": 4.9,
+      "apparent_temp_c": -1.2,
+      "wind_kph": 17.4,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 23,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-14T12:00",
+      "temp_c": 11.1,
+      "apparent_temp_c": 6.6,
+      "wind_kph": 7.8,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 18,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 425.0
+    },
+    {
+      "time_local": "2025-12-15T00:00",
+      "temp_c": 6.0,
+      "apparent_temp_c": -0.9,
+      "wind_kph": 21.6,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 17,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-15T12:00",
+      "temp_c": 7.3,
+      "apparent_temp_c": 3.0,
+      "wind_kph": 6.0,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 23,
+      "cloud_cover_pct": 5,
+      "solar_radiation_w_m2": 439.0
+    }
+  ],
+  "errors": [
+    {
+      "source": "OnTheSnow",
+      "field": "snow_base_depth_cm",
+      "reason": "pattern_not_found",
+      "url": "https://www.onthesnow.com/utah/snowbasin/skireport"
+    },
+    {
+      "source": "OnTheSnow",
+      "field": "snowfall_past_3_days_cm",
+      "reason": "recent_snowfall_row_not_found",
+      "url": "https://www.onthesnow.com/utah/snowbasin/skireport"
+    }
+  ],
+  "sources": {
+    "snow": "OnTheSnow skireport (scraped, low-frequency)",
+    "forecast": "Open-Meteo API (hourly \u2192 12-hourly)"
+  }
+}

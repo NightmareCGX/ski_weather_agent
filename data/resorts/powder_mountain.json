@@ -1,0 +1,106 @@
+{
+  "generated_at_local": "2025-12-13T12:59:59.852068",
+  "resort": "Powder Mountain",
+  "location": {
+    "lat": 41.382,
+    "lon": -111.78
+  },
+  "units": {
+    "temperature": "C",
+    "wind_speed": "kph",
+    "snow": "cm",
+    "solar_radiation": "W/m^2",
+    "humidity": "%",
+    "cloud_cover": "%"
+  },
+  "snow": {
+    "snow_base_depth_cm": 30.5,
+    "snowfall_past_3_days_cm": null,
+    "recent_snowfall_components_in": [],
+    "recent_snowfall_used_for_3day_in": [],
+    "source": "OnTheSnow skireport (scraped)",
+    "url": "https://www.onthesnow.com/utah/powder-mountain/skireport",
+    "errors": [
+      {
+        "source": "OnTheSnow",
+        "field": "snowfall_past_3_days_cm",
+        "reason": "recent_snowfall_row_not_found",
+        "url": "https://www.onthesnow.com/utah/powder-mountain/skireport"
+      }
+    ]
+  },
+  "forecast_next_3_days_12h": [
+    {
+      "time_local": "2025-12-13T00:00",
+      "temp_c": -1.3,
+      "apparent_temp_c": -7.3,
+      "wind_kph": 19.0,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 49,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-13T12:00",
+      "temp_c": 4.4,
+      "apparent_temp_c": 0.1,
+      "wind_kph": 8.3,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 39,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 460.8
+    },
+    {
+      "time_local": "2025-12-14T00:00",
+      "temp_c": 3.9,
+      "apparent_temp_c": -1.5,
+      "wind_kph": 11.1,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 14,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-14T12:00",
+      "temp_c": 6.5,
+      "apparent_temp_c": -0.5,
+      "wind_kph": 23.6,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 20,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 441.0
+    },
+    {
+      "time_local": "2025-12-15T00:00",
+      "temp_c": 1.8,
+      "apparent_temp_c": -4.1,
+      "wind_kph": 14.7,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 18,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-15T12:00",
+      "temp_c": 4.5,
+      "apparent_temp_c": 0.1,
+      "wind_kph": 5.9,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 24,
+      "cloud_cover_pct": 5,
+      "solar_radiation_w_m2": 440.0
+    }
+  ],
+  "errors": [
+    {
+      "source": "OnTheSnow",
+      "field": "snowfall_past_3_days_cm",
+      "reason": "recent_snowfall_row_not_found",
+      "url": "https://www.onthesnow.com/utah/powder-mountain/skireport"
+    }
+  ],
+  "sources": {
+    "snow": "OnTheSnow skireport (scraped, low-frequency)",
+    "forecast": "Open-Meteo API (hourly \u2192 12-hourly)"
+  }
+}

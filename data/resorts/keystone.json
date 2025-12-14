@@ -1,0 +1,118 @@
+{
+  "generated_at_local": "2025-12-13T12:59:47.058584",
+  "resort": "Keystone",
+  "location": {
+    "lat": 39.6061,
+    "lon": -105.9542
+  },
+  "units": {
+    "temperature": "C",
+    "wind_speed": "kph",
+    "snow": "cm",
+    "solar_radiation": "W/m^2",
+    "humidity": "%",
+    "cloud_cover": "%"
+  },
+  "snow": {
+    "snow_base_depth_cm": null,
+    "snowfall_past_3_days_cm": null,
+    "recent_snowfall_components_in": [],
+    "recent_snowfall_used_for_3day_in": [],
+    "source": "OnTheSnow skireport (scraped)",
+    "url": "https://www.onthesnow.com/colorado/keystone/skireport",
+    "errors": [
+      {
+        "source": "OnTheSnow",
+        "field": "snow_base_depth_cm",
+        "reason": "pattern_not_found",
+        "url": "https://www.onthesnow.com/colorado/keystone/skireport"
+      },
+      {
+        "source": "OnTheSnow",
+        "field": "snowfall_past_3_days_cm",
+        "reason": "recent_snowfall_row_not_found",
+        "url": "https://www.onthesnow.com/colorado/keystone/skireport"
+      }
+    ]
+  },
+  "forecast_next_3_days_12h": [
+    {
+      "time_local": "2025-12-13T00:00",
+      "temp_c": 0.5,
+      "apparent_temp_c": -5.2,
+      "wind_kph": 15.7,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 38,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-13T12:00",
+      "temp_c": 5.5,
+      "apparent_temp_c": -0.5,
+      "wind_kph": 16.6,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 23,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 508.0
+    },
+    {
+      "time_local": "2025-12-14T00:00",
+      "temp_c": -0.2,
+      "apparent_temp_c": -5.9,
+      "wind_kph": 12.6,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 18,
+      "cloud_cover_pct": 55,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-14T12:00",
+      "temp_c": 9.3,
+      "apparent_temp_c": 4.0,
+      "wind_kph": 10.0,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 8,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 519.0
+    },
+    {
+      "time_local": "2025-12-15T00:00",
+      "temp_c": 1.4,
+      "apparent_temp_c": -3.7,
+      "wind_kph": 8.2,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 12,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-15T12:00",
+      "temp_c": 5.9,
+      "apparent_temp_c": 2.5,
+      "wind_kph": 4.7,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 46,
+      "cloud_cover_pct": 21,
+      "solar_radiation_w_m2": 504.0
+    }
+  ],
+  "errors": [
+    {
+      "source": "OnTheSnow",
+      "field": "snow_base_depth_cm",
+      "reason": "pattern_not_found",
+      "url": "https://www.onthesnow.com/colorado/keystone/skireport"
+    },
+    {
+      "source": "OnTheSnow",
+      "field": "snowfall_past_3_days_cm",
+      "reason": "recent_snowfall_row_not_found",
+      "url": "https://www.onthesnow.com/colorado/keystone/skireport"
+    }
+  ],
+  "sources": {
+    "snow": "OnTheSnow skireport (scraped, low-frequency)",
+    "forecast": "Open-Meteo API (hourly \u2192 12-hourly)"
+  }
+}

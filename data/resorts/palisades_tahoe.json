@@ -1,0 +1,52 @@
+{
+  "generated_at_local": "2025-12-13T13:00:05.951145",
+  "resort": "Palisades Tahoe",
+  "location": {
+    "lat": 39.1969,
+    "lon": -120.2354
+  },
+  "units": {
+    "temperature": "C",
+    "wind_speed": "kph",
+    "snow": "cm",
+    "solar_radiation": "W/m^2",
+    "humidity": "%",
+    "cloud_cover": "%"
+  },
+  "snow": {
+    "snow_base_depth_cm": 45.7,
+    "snowfall_past_3_days_cm": null,
+    "recent_snowfall_components_in": [],
+    "recent_snowfall_used_for_3day_in": [],
+    "source": "OnTheSnow skireport (scraped)",
+    "url": "https://www.onthesnow.com/california/palisades-tahoe/skireport",
+    "errors": [
+      {
+        "source": "OnTheSnow",
+        "field": "snowfall_past_3_days_cm",
+        "reason": "recent_snowfall_row_not_found",
+        "url": "https://www.onthesnow.com/california/palisades-tahoe/skireport"
+      }
+    ]
+  },
+  "forecast_next_3_days_12h": [],
+  "errors": [
+    {
+      "source": "OnTheSnow",
+      "field": "snowfall_past_3_days_cm",
+      "reason": "recent_snowfall_row_not_found",
+      "url": "https://www.onthesnow.com/california/palisades-tahoe/skireport"
+    },
+    {
+      "source": "Open-Meteo",
+      "field": "parse",
+      "reason": "exception_SSLError",
+      "detail": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=39.1969&longitude=-120.2354&timezone=auto&forecast_days=3&temperature_unit=celsius&wind_speed_unit=kmh&hourly=temperature_2m%2Capparent_temperature%2Crelative_humidity_2m%2Ccloud_cover%2Cwind_speed_10m%2Csnowfall%2Cshortwave_radiation (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)')))",
+      "url": "https://api.open-meteo.com/v1/forecast"
+    }
+  ],
+  "sources": {
+    "snow": "OnTheSnow skireport (scraped, low-frequency)",
+    "forecast": "Open-Meteo API (hourly \u2192 12-hourly)"
+  }
+}

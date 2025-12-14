@@ -1,0 +1,106 @@
+{
+  "generated_at_local": "2025-12-13T12:59:46.004999",
+  "resort": "Breckenridge",
+  "location": {
+    "lat": 39.4817,
+    "lon": -106.0384
+  },
+  "units": {
+    "temperature": "C",
+    "wind_speed": "kph",
+    "snow": "cm",
+    "solar_radiation": "W/m^2",
+    "humidity": "%",
+    "cloud_cover": "%"
+  },
+  "snow": {
+    "snow_base_depth_cm": 45.7,
+    "snowfall_past_3_days_cm": null,
+    "recent_snowfall_components_in": [],
+    "recent_snowfall_used_for_3day_in": [],
+    "source": "OnTheSnow skireport (scraped)",
+    "url": "https://www.onthesnow.com/colorado/breckenridge/skireport",
+    "errors": [
+      {
+        "source": "OnTheSnow",
+        "field": "snowfall_past_3_days_cm",
+        "reason": "recent_snowfall_row_not_found",
+        "url": "https://www.onthesnow.com/colorado/breckenridge/skireport"
+      }
+    ]
+  },
+  "forecast_next_3_days_12h": [
+    {
+      "time_local": "2025-12-13T00:00",
+      "temp_c": -1.1,
+      "apparent_temp_c": -6.6,
+      "wind_kph": 14.2,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 42,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-13T12:00",
+      "temp_c": 4.5,
+      "apparent_temp_c": -1.8,
+      "wind_kph": 18.7,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 24,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 510.0
+    },
+    {
+      "time_local": "2025-12-14T00:00",
+      "temp_c": -1.4,
+      "apparent_temp_c": -6.6,
+      "wind_kph": 9.2,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 19,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-14T12:00",
+      "temp_c": 8.7,
+      "apparent_temp_c": 4.0,
+      "wind_kph": 5.8,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 9,
+      "cloud_cover_pct": 1,
+      "solar_radiation_w_m2": 521.0
+    },
+    {
+      "time_local": "2025-12-15T00:00",
+      "temp_c": 0.3,
+      "apparent_temp_c": -4.7,
+      "wind_kph": 6.7,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 12,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-15T12:00",
+      "temp_c": 5.2,
+      "apparent_temp_c": 1.4,
+      "wind_kph": 5.2,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 39,
+      "cloud_cover_pct": 41,
+      "solar_radiation_w_m2": 493.0
+    }
+  ],
+  "errors": [
+    {
+      "source": "OnTheSnow",
+      "field": "snowfall_past_3_days_cm",
+      "reason": "recent_snowfall_row_not_found",
+      "url": "https://www.onthesnow.com/colorado/breckenridge/skireport"
+    }
+  ],
+  "sources": {
+    "snow": "OnTheSnow skireport (scraped, low-frequency)",
+    "forecast": "Open-Meteo API (hourly \u2192 12-hourly)"
+  }
+}

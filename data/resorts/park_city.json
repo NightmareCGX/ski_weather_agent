@@ -1,0 +1,106 @@
+{
+  "generated_at_local": "2025-12-13T12:59:55.596535",
+  "resort": "Park City",
+  "location": {
+    "lat": 40.6514,
+    "lon": -111.507
+  },
+  "units": {
+    "temperature": "C",
+    "wind_speed": "kph",
+    "snow": "cm",
+    "solar_radiation": "W/m^2",
+    "humidity": "%",
+    "cloud_cover": "%"
+  },
+  "snow": {
+    "snow_base_depth_cm": null,
+    "snowfall_past_3_days_cm": null,
+    "recent_snowfall_components_in": [],
+    "recent_snowfall_used_for_3day_in": [],
+    "source": "OnTheSnow skireport (scraped)",
+    "url": "https://www.onthesnow.com/utah/park-city/skireport",
+    "errors": [
+      {
+        "source": "OnTheSnow",
+        "field": "http",
+        "reason": "http_error_404",
+        "url": "https://www.onthesnow.com/utah/park-city/skireport"
+      }
+    ]
+  },
+  "forecast_next_3_days_12h": [
+    {
+      "time_local": "2025-12-13T00:00",
+      "temp_c": 0.0,
+      "apparent_temp_c": -4.5,
+      "wind_kph": 8.2,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 41,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-13T12:00",
+      "temp_c": 7.8,
+      "apparent_temp_c": 3.8,
+      "wind_kph": 5.2,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 28,
+      "cloud_cover_pct": 26,
+      "solar_radiation_w_m2": 469.0
+    },
+    {
+      "time_local": "2025-12-14T00:00",
+      "temp_c": 3.1,
+      "apparent_temp_c": -2.1,
+      "wind_kph": 11.0,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 21,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-14T12:00",
+      "temp_c": 12.8,
+      "apparent_temp_c": 7.0,
+      "wind_kph": 14.9,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 11,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 450.0
+    },
+    {
+      "time_local": "2025-12-15T00:00",
+      "temp_c": 3.2,
+      "apparent_temp_c": -0.8,
+      "wind_kph": 1.6,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 17,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-15T12:00",
+      "temp_c": 9.7,
+      "apparent_temp_c": 5.6,
+      "wind_kph": 4.7,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 21,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 457.0
+    }
+  ],
+  "errors": [
+    {
+      "source": "OnTheSnow",
+      "field": "http",
+      "reason": "http_error_404",
+      "url": "https://www.onthesnow.com/utah/park-city/skireport"
+    }
+  ],
+  "sources": {
+    "snow": "OnTheSnow skireport (scraped, low-frequency)",
+    "forecast": "Open-Meteo API (hourly \u2192 12-hourly)"
+  }
+}

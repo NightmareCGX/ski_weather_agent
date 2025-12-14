@@ -1,0 +1,106 @@
+{
+  "generated_at_local": "2025-12-13T12:59:53.376759",
+  "resort": "Steamboat",
+  "location": {
+    "lat": 40.4572,
+    "lon": -106.8047
+  },
+  "units": {
+    "temperature": "C",
+    "wind_speed": "kph",
+    "snow": "cm",
+    "solar_radiation": "W/m^2",
+    "humidity": "%",
+    "cloud_cover": "%"
+  },
+  "snow": {
+    "snow_base_depth_cm": 40.6,
+    "snowfall_past_3_days_cm": null,
+    "recent_snowfall_components_in": [],
+    "recent_snowfall_used_for_3day_in": [],
+    "source": "OnTheSnow skireport (scraped)",
+    "url": "https://www.onthesnow.com/colorado/steamboat/skireport",
+    "errors": [
+      {
+        "source": "OnTheSnow",
+        "field": "snowfall_past_3_days_cm",
+        "reason": "recent_snowfall_row_not_found",
+        "url": "https://www.onthesnow.com/colorado/steamboat/skireport"
+      }
+    ]
+  },
+  "forecast_next_3_days_12h": [
+    {
+      "time_local": "2025-12-13T00:00",
+      "temp_c": 0.7,
+      "apparent_temp_c": -4.2,
+      "wind_kph": 13.3,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 59,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-13T12:00",
+      "temp_c": 6.9,
+      "apparent_temp_c": 2.9,
+      "wind_kph": 4.7,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 25,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 477.5
+    },
+    {
+      "time_local": "2025-12-14T00:00",
+      "temp_c": 3.4,
+      "apparent_temp_c": -0.6,
+      "wind_kph": 2.5,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 22,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-14T12:00",
+      "temp_c": 10.8,
+      "apparent_temp_c": 6.5,
+      "wind_kph": 6.1,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 18,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 490.0
+    },
+    {
+      "time_local": "2025-12-15T00:00",
+      "temp_c": 5.1,
+      "apparent_temp_c": 0.7,
+      "wind_kph": 4.3,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 15,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-15T12:00",
+      "temp_c": 7.3,
+      "apparent_temp_c": 3.8,
+      "wind_kph": 1.8,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 30,
+      "cloud_cover_pct": 8,
+      "solar_radiation_w_m2": 472.0
+    }
+  ],
+  "errors": [
+    {
+      "source": "OnTheSnow",
+      "field": "snowfall_past_3_days_cm",
+      "reason": "recent_snowfall_row_not_found",
+      "url": "https://www.onthesnow.com/colorado/steamboat/skireport"
+    }
+  ],
+  "sources": {
+    "snow": "OnTheSnow skireport (scraped, low-frequency)",
+    "forecast": "Open-Meteo API (hourly \u2192 12-hourly)"
+  }
+}

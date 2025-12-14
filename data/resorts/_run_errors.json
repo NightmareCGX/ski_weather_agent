@@ -1,0 +1,263 @@
+{
+  "generated_at_local": "2025-12-13T13:00:12.973893",
+  "error_count": 20,
+  "resorts_with_errors": [
+    {
+      "resort": "Vail",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "snowfall_past_3_days_cm",
+          "reason": "recent_snowfall_row_not_found",
+          "url": "https://www.onthesnow.com/colorado/vail/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Breckenridge",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "snowfall_past_3_days_cm",
+          "reason": "recent_snowfall_row_not_found",
+          "url": "https://www.onthesnow.com/colorado/breckenridge/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Keystone",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "snow_base_depth_cm",
+          "reason": "pattern_not_found",
+          "url": "https://www.onthesnow.com/colorado/keystone/skireport"
+        },
+        {
+          "source": "OnTheSnow",
+          "field": "snowfall_past_3_days_cm",
+          "reason": "recent_snowfall_row_not_found",
+          "url": "https://www.onthesnow.com/colorado/keystone/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Beaver Creek",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "snowfall_past_3_days_cm",
+          "reason": "recent_snowfall_row_not_found",
+          "url": "https://www.onthesnow.com/colorado/beaver-creek/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Copper Mountain",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "snowfall_past_3_days_cm",
+          "reason": "recent_snowfall_row_not_found",
+          "url": "https://www.onthesnow.com/colorado/copper-mountain-resort/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Winter Park",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "snowfall_past_3_days_cm",
+          "reason": "recent_snowfall_row_not_found",
+          "url": "https://www.onthesnow.com/colorado/winter-park-resort/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Arapahoe Basin",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "snow_base_depth_cm",
+          "reason": "pattern_not_found",
+          "url": "https://www.onthesnow.com/colorado/arapahoe-basin-ski-area/skireport"
+        },
+        {
+          "source": "OnTheSnow",
+          "field": "snowfall_past_3_days_cm",
+          "reason": "recent_snowfall_row_not_found",
+          "url": "https://www.onthesnow.com/colorado/arapahoe-basin-ski-area/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Aspen Snowmass",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "snowfall_past_3_days_cm",
+          "reason": "recent_snowfall_row_not_found",
+          "url": "https://www.onthesnow.com/colorado/aspen-snowmass/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Steamboat",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "snowfall_past_3_days_cm",
+          "reason": "recent_snowfall_row_not_found",
+          "url": "https://www.onthesnow.com/colorado/steamboat/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Telluride",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "snow_base_depth_cm",
+          "reason": "pattern_not_found",
+          "url": "https://www.onthesnow.com/colorado/telluride/skireport"
+        },
+        {
+          "source": "OnTheSnow",
+          "field": "snowfall_past_3_days_cm",
+          "reason": "recent_snowfall_row_not_found",
+          "url": "https://www.onthesnow.com/colorado/telluride/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Park City",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "http",
+          "reason": "http_error_404",
+          "url": "https://www.onthesnow.com/utah/park-city/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Alta",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "snowfall_past_3_days_cm",
+          "reason": "recent_snowfall_row_not_found",
+          "url": "https://www.onthesnow.com/utah/alta-ski-area/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Snowbird",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "snow_base_depth_cm",
+          "reason": "pattern_not_found",
+          "url": "https://www.onthesnow.com/utah/snowbird/skireport"
+        },
+        {
+          "source": "OnTheSnow",
+          "field": "snowfall_past_3_days_cm",
+          "reason": "recent_snowfall_row_not_found",
+          "url": "https://www.onthesnow.com/utah/snowbird/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Snowbasin",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "snow_base_depth_cm",
+          "reason": "pattern_not_found",
+          "url": "https://www.onthesnow.com/utah/snowbasin/skireport"
+        },
+        {
+          "source": "OnTheSnow",
+          "field": "snowfall_past_3_days_cm",
+          "reason": "recent_snowfall_row_not_found",
+          "url": "https://www.onthesnow.com/utah/snowbasin/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Powder Mountain",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "snowfall_past_3_days_cm",
+          "reason": "recent_snowfall_row_not_found",
+          "url": "https://www.onthesnow.com/utah/powder-mountain/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Mammoth Mountain",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "http",
+          "reason": "http_error_404",
+          "url": "https://www.onthesnow.com/california/mammoth-mountain/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Palisades Tahoe",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "snowfall_past_3_days_cm",
+          "reason": "recent_snowfall_row_not_found",
+          "url": "https://www.onthesnow.com/california/palisades-tahoe/skireport"
+        },
+        {
+          "source": "Open-Meteo",
+          "field": "parse",
+          "reason": "exception_SSLError",
+          "detail": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=39.1969&longitude=-120.2354&timezone=auto&forecast_days=3&temperature_unit=celsius&wind_speed_unit=kmh&hourly=temperature_2m%2Capparent_temperature%2Crelative_humidity_2m%2Ccloud_cover%2Cwind_speed_10m%2Csnowfall%2Cshortwave_radiation (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)')))",
+          "url": "https://api.open-meteo.com/v1/forecast"
+        }
+      ]
+    },
+    {
+      "resort": "Heavenly",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "http",
+          "reason": "http_error_404",
+          "url": "https://www.onthesnow.com/california/heavenly/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Stowe",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "http",
+          "reason": "http_error_404",
+          "url": "https://www.onthesnow.com/vermont/stowe-mountain/skireport"
+        }
+      ]
+    },
+    {
+      "resort": "Killington",
+      "errors": [
+        {
+          "source": "OnTheSnow",
+          "field": "snowfall_past_3_days_cm",
+          "reason": "recent_snowfall_row_not_found",
+          "url": "https://www.onthesnow.com/vermont/killington-resort/skireport"
+        }
+      ]
+    }
+  ]
+}

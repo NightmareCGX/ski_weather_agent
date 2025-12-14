@@ -1,0 +1,118 @@
+{
+  "generated_at_local": "2025-12-13T12:59:54.519325",
+  "resort": "Telluride",
+  "location": {
+    "lat": 37.9375,
+    "lon": -107.8123
+  },
+  "units": {
+    "temperature": "C",
+    "wind_speed": "kph",
+    "snow": "cm",
+    "solar_radiation": "W/m^2",
+    "humidity": "%",
+    "cloud_cover": "%"
+  },
+  "snow": {
+    "snow_base_depth_cm": null,
+    "snowfall_past_3_days_cm": null,
+    "recent_snowfall_components_in": [],
+    "recent_snowfall_used_for_3day_in": [],
+    "source": "OnTheSnow skireport (scraped)",
+    "url": "https://www.onthesnow.com/colorado/telluride/skireport",
+    "errors": [
+      {
+        "source": "OnTheSnow",
+        "field": "snow_base_depth_cm",
+        "reason": "pattern_not_found",
+        "url": "https://www.onthesnow.com/colorado/telluride/skireport"
+      },
+      {
+        "source": "OnTheSnow",
+        "field": "snowfall_past_3_days_cm",
+        "reason": "recent_snowfall_row_not_found",
+        "url": "https://www.onthesnow.com/colorado/telluride/skireport"
+      }
+    ]
+  },
+  "forecast_next_3_days_12h": [
+    {
+      "time_local": "2025-12-13T00:00",
+      "temp_c": 2.1,
+      "apparent_temp_c": -3.2,
+      "wind_kph": 10.7,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 20,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-13T12:00",
+      "temp_c": 8.9,
+      "apparent_temp_c": 4.3,
+      "wind_kph": 6.4,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 13,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 544.5
+    },
+    {
+      "time_local": "2025-12-14T00:00",
+      "temp_c": 3.9,
+      "apparent_temp_c": -1.5,
+      "wind_kph": 9.5,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 8,
+      "cloud_cover_pct": 3,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-14T12:00",
+      "temp_c": 10.2,
+      "apparent_temp_c": 6.3,
+      "wind_kph": 2.0,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 15,
+      "cloud_cover_pct": 95,
+      "solar_radiation_w_m2": 517.0
+    },
+    {
+      "time_local": "2025-12-15T00:00",
+      "temp_c": 3.8,
+      "apparent_temp_c": -1.2,
+      "wind_kph": 7.6,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 15,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-15T12:00",
+      "temp_c": 9.1,
+      "apparent_temp_c": 5.1,
+      "wind_kph": 4.0,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 21,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 406.0
+    }
+  ],
+  "errors": [
+    {
+      "source": "OnTheSnow",
+      "field": "snow_base_depth_cm",
+      "reason": "pattern_not_found",
+      "url": "https://www.onthesnow.com/colorado/telluride/skireport"
+    },
+    {
+      "source": "OnTheSnow",
+      "field": "snowfall_past_3_days_cm",
+      "reason": "recent_snowfall_row_not_found",
+      "url": "https://www.onthesnow.com/colorado/telluride/skireport"
+    }
+  ],
+  "sources": {
+    "snow": "OnTheSnow skireport (scraped, low-frequency)",
+    "forecast": "Open-Meteo API (hourly \u2192 12-hourly)"
+  }
+}

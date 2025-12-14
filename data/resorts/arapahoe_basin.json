@@ -1,0 +1,118 @@
+{
+  "generated_at_local": "2025-12-13T12:59:51.300733",
+  "resort": "Arapahoe Basin",
+  "location": {
+    "lat": 39.6423,
+    "lon": -105.8717
+  },
+  "units": {
+    "temperature": "C",
+    "wind_speed": "kph",
+    "snow": "cm",
+    "solar_radiation": "W/m^2",
+    "humidity": "%",
+    "cloud_cover": "%"
+  },
+  "snow": {
+    "snow_base_depth_cm": null,
+    "snowfall_past_3_days_cm": null,
+    "recent_snowfall_components_in": [],
+    "recent_snowfall_used_for_3day_in": [],
+    "source": "OnTheSnow skireport (scraped)",
+    "url": "https://www.onthesnow.com/colorado/arapahoe-basin-ski-area/skireport",
+    "errors": [
+      {
+        "source": "OnTheSnow",
+        "field": "snow_base_depth_cm",
+        "reason": "pattern_not_found",
+        "url": "https://www.onthesnow.com/colorado/arapahoe-basin-ski-area/skireport"
+      },
+      {
+        "source": "OnTheSnow",
+        "field": "snowfall_past_3_days_cm",
+        "reason": "recent_snowfall_row_not_found",
+        "url": "https://www.onthesnow.com/colorado/arapahoe-basin-ski-area/skireport"
+      }
+    ]
+  },
+  "forecast_next_3_days_12h": [
+    {
+      "time_local": "2025-12-13T00:00",
+      "temp_c": -5.9,
+      "apparent_temp_c": -12.2,
+      "wind_kph": 19.3,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 54,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-13T12:00",
+      "temp_c": 1.5,
+      "apparent_temp_c": -5.2,
+      "wind_kph": 21.3,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 27,
+      "cloud_cover_pct": 0,
+      "solar_radiation_w_m2": 513.2
+    },
+    {
+      "time_local": "2025-12-14T00:00",
+      "temp_c": -3.8,
+      "apparent_temp_c": -9.3,
+      "wind_kph": 11.1,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 20,
+      "cloud_cover_pct": 13,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-14T12:00",
+      "temp_c": 0.9,
+      "apparent_temp_c": -4.0,
+      "wind_kph": 6.3,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 11,
+      "cloud_cover_pct": 17,
+      "solar_radiation_w_m2": 524.0
+    },
+    {
+      "time_local": "2025-12-15T00:00",
+      "temp_c": -1.7,
+      "apparent_temp_c": -7.2,
+      "wind_kph": 10.4,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 14,
+      "cloud_cover_pct": 100,
+      "solar_radiation_w_m2": 0.0
+    },
+    {
+      "time_local": "2025-12-15T12:00",
+      "temp_c": 3.2,
+      "apparent_temp_c": -0.6,
+      "wind_kph": 7.2,
+      "snow_cm": 0.0,
+      "relative_humidity_pct": 56,
+      "cloud_cover_pct": 9,
+      "solar_radiation_w_m2": 508.0
+    }
+  ],
+  "errors": [
+    {
+      "source": "OnTheSnow",
+      "field": "snow_base_depth_cm",
+      "reason": "pattern_not_found",
+      "url": "https://www.onthesnow.com/colorado/arapahoe-basin-ski-area/skireport"
+    },
+    {
+      "source": "OnTheSnow",
+      "field": "snowfall_past_3_days_cm",
+      "reason": "recent_snowfall_row_not_found",
+      "url": "https://www.onthesnow.com/colorado/arapahoe-basin-ski-area/skireport"
+    }
+  ],
+  "sources": {
+    "snow": "OnTheSnow skireport (scraped, low-frequency)",
+    "forecast": "Open-Meteo API (hourly \u2192 12-hourly)"
+  }
+}
